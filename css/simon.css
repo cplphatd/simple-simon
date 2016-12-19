@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+body {
+    background-image: url("../img/ricepaper_v3.png");
+    color: #3B0D11;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+h2 {
+    text-align: center;
+}
+.horizContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.invisible {
+    visibility: hidden;
+}
+.square {
+    height: 17em;
+    width: 17em;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.vertContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#blue {
+    background-color: #4267A2;
+    background-image: url("../img/simonBlackMage.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 1em;
+}
+#controls {
+    margin-bottom: 1em;
+}
+#green {
+    background-color: #3E442B;
+    background-image: url("../img/simonThief.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#mainContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#red {
+    background-color: #FE5340;
+    background-image: url("../img/simonLancer.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#start {
+    width: 10em;
+    margin-top: 1em;
+}
+#yellow {
+    background-color: #F8DA47;
+    background-image: url("../img/simonMime.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}

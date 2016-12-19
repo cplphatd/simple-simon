@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple Simon Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+              integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/simon.css">
+        <link rel="stylesheet" href="css/animate.css">
+    </head>
+    <body>
+        <div id="mainContainer">
+            <div class="vertContainer">
+                    <h1>Final Simon Fantasy!</h1>
+                    <h2 id="round" class="invisible">
+                        XP:  <span id="roundNumber">0</span> / <span id="nextLevel">0</span>
+                    </h2>
+                    <div id="warning" class="hidden">
+                        Hard mode activated! Enter the sequence in reverse!
+                    </div>
+                    <h2 id="levelUp" class="invisible animated">
+                        Level up! Speed increase!
+                    </h2>
+            </div>
+            <div id="controls" class="vertContainer">
+                <div>Choose difficulty:</div>
+                <div class="btn-group">
+                    <button id="normal" class="btn btn-warning">Normal</button>
+                    <button id="hard" class="btn btn-warning">Hard</button>
+                </div>
+                <button id="start" class="btn btn-success">Start</button>
+            </div>
+            <div class="horizContainer">
+                <div id="green" class="square"></div>
+                <div id="red" class="square"></div>
+            </div>
+            <div class="horizContainer">
+                <div id="yellow" class="square"></div>
+                <div id="blue" class="square"></div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+                crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+                crossorigin="anonymous"></script>
+        <script src="js/simon.js"></script>
+    </body>
+</html>
