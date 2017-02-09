@@ -180,7 +180,6 @@
             index -= 1;
         } else {
             gameOver();
-            console.log(hardMode);
         }
     };
 
